@@ -1,0 +1,26 @@
+{
+  "name": "webapplication1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "\"SET NODE_ENV=development&& \"./node_modules/.bin/webpack\" --progress --colors\"",
+    "devserver": "\"SET NODE_ENV=development&& \"./node_modules/.bin/webpack-dev-server\" --progress --colors --open\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/react": "15.0.25",
+    "@types/react-dom": "15.5.0",
+    "react": "15.5.4",
+    "react-dom": "15.5.4"
+  },
+  "devDependencies": {
+    "react-hot-loader": "3.0.0-beta.7",
+    "ts-loader": "2.1.0",
+    "typescript": "2.3.3",
+    "webpack": "2.6.1",
+    "webpack-dev-server": "2.4.5"
+  }
+}
